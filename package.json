@@ -4,7 +4,8 @@
   "description": "Practice with JSDoc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "open docs/jsdoc-practice/1.0.0/index.html",
+    "docs:make": "rm -rf ./docs && jsdoc -c ./jsdocs.conf.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/MostlyFocusedMike/jsdoc-practice/issues"
   },
-  "homepage": "https://github.com/MostlyFocusedMike/jsdoc-practice#readme"
+  "homepage": "https://github.com/MostlyFocusedMike/jsdoc-practice#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jsdoc": "^3.5.5",
+    "minami": "^1.2.3"
+  }
 }
