@@ -1,0 +1,16 @@
+{
+    "welcome": {
+        "title": "Getting Started"
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "children": {
+            "faq-hapi": {
+                "title": "FAQ: Hapi"
+            },
+            "faq-docker": {
+                "title": "FAQ: Docker"
+            }
+        }
+    }
+}

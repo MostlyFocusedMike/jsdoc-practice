@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "docs": "open docs/jsdoc-practice/1.0.0/index.html",
-    "docs:make": "rm -rf ./docs && jsdoc -c ./jsdocs.conf.js"
+    "docs:make": "jsdoc -c ./jsdocs.conf.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "eslint-plugin-react": "^7.12.4",
     "jsdoc": "^3.5.5",
     "minami": "^1.2.3"
+  },
+  "dependencies": {
+    "ink-docstrap": "^1.3.2"
   }
 }

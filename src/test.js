@@ -15,7 +15,7 @@
 /** A person class */
 class Person {
     /**
-     * make a person
+     * make a person real nice like
      * @param {string} name - the person's name
      */
     constructor(name) {
